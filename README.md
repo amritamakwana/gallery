@@ -1,8 +1,8 @@
-# gallery
+# Gallery
 
 Responsive Gallery Page that renders data from following response feed (http://origin-www.tasteofhome.com/feed/msn-slideshows/) using Backbone
 
-For each item in the response, it displayes Main Title, Abscract Text, Auther, and a Card containing gallery of images.
+For each item in the response, it displays title, abstract text, auther, and a card containing gallery of images.
 
 On each image there is a button on the bottom right corner, and on click of it corresponding image opens in a popup along with title and description. For multiple images there will be left and right navigation option.
 
@@ -16,9 +16,9 @@ Server location: http://127.0.0.1:8080/
 
 ## Technical Description
 #### Libraries used: 
+* Backbone
 * Underscore
 * JQuery
-* Backbone
 
 #### Page consists of following collections, models, and views
 ###### Collections
