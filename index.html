@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+          <script src="http://underscorejs.org/underscore.js"></script>
+          <script src="http://code.jquery.com/jquery.js"></script>
+          <script src="http://backbonejs.org/backbone.js"></script>
+          <link rel="stylesheet" type="text/css" href="css/gallery.css"></link>
+    </head>
+    <body>
+        <div id="container">
+        </div>
+		<script type="text/template" id="items_template">
+			<h1> <%= title %> </h1> 
+			<p> <%= abstract %> </p>
+			<p> Author : <%= author %></p>
+		</script>
+		
+		<script type="text/template" id="image_template">
+			<div class='gallery'>
+				<img src= <%= url %> class='image'>
+				<button type='button' class='button'></button>
+			</div>
+		</script>
+		
+		<script type="text/template" id="popup_image_template">
+			<div class='popup_view'> 
+				<h3 id='image_title'> <%= title %> </h3> 
+				<img src= <%= url %> class='popup_image'>
+				<button type='button' id='left_nav'> < </button> 
+				<p id='image_description'> <%= description %> </p> 
+				<button type='button' id='right_nav'> > </button>
+			</div>
+		</script>
+		
+        <script src="js/gallery.js"></script>
+    </body>
+ </html>
