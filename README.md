@@ -2,11 +2,11 @@
 
 Gallery Page that renders data from following response feed (http://origin-www.tasteofhome.com/feed/msn-slideshows/) using Backbone
 
-It displayes Main Title, Abscract Text, Auther, and a Card containing gallery of images along with their heading and description.
+For each item in the response, it displayes Main Title, Abscract Text, Auther, and a Card containing gallery of images.
 
-On each image there a a button on the bottom right corner, and on click of it corresponding images opens in a popup along with title and description. For multiple images there will be left and right navigation option.
+On each image there is a button on the bottom right corner, and on click of it corresponding image opens in a popup along with title and description. For multiple images there will be left and right navigation option.
 
-Page is server from a simple http server using node js (http-server)
+Page is served from a simple http server using node js (http-server)
 
 Steps:
 * npm install http-server -g
