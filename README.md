@@ -1,6 +1,6 @@
 # gallery
 
-Gallery Page that renders data from following response feed (http://origin-www.tasteofhome.com/feed/msn-slideshows/) using Backbone
+Responsive Gallery Page that renders data from following response feed (http://origin-www.tasteofhome.com/feed/msn-slideshows/) using Backbone
 
 For each item in the response, it displayes Main Title, Abscract Text, Auther, and a Card containing gallery of images.
 
