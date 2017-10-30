@@ -128,6 +128,10 @@ div.gallery img {
     top : 45%;
 }
 
+.popup_view > button:hover {
+    cursor: pointer;
+}
+
 #close_popup_view{
 	top : 5%;
 	right : 20%;
