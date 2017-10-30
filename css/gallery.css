@@ -6,10 +6,19 @@ div.gallery:hover {
     border: 1px solid #777;
 }
 
-button:hover{
-	border: 1px solid #777;
+.button{
+	background-color: #FFFFFF;
+	border: medium none;
+	border-radius: 20px;
+	height: 20px;
+	width: 20px;
+}
+
+.button:hover{
 	cursor : pointer;
 }
+
+
 
 div.gallery img {
     width: 100%;
@@ -44,6 +53,11 @@ div.gallery img {
 	#right_nav{
 		right: 15%;
 	}
+	#close_popup_view{
+		top : 8%;
+		right : 18%;
+}
+
 }
 
 @media only screen and (max-width: 500px){
@@ -57,6 +71,11 @@ div.gallery img {
 	#right_nav{
 		right: 5%;
 	}
+	#close_popup_view{
+		top : 10%;
+		right : 15%;
+}
+
 }
 
 .clearfix:after {
@@ -67,11 +86,14 @@ div.gallery img {
 
 .button{
     position : absolute;
-    height : 30px;
     width : 30px;
     right : 15px;
     bottom : 20px;
-    background : url('camera.png');
+	background-color: #FFFFFF;
+	border: medium none;
+	border-radius: 20px;
+	height: 20px;
+	width: 20px;
 }
 
 .popup_view{
@@ -104,6 +126,12 @@ div.gallery img {
     color : white;
     font-size : 35px;
     top : 45%;
+}
+
+#close_popup_view{
+	top : 5%;
+	right : 20%;
+	font-size: 20px;
 }
 
 .popup_view > p{
