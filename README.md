@@ -6,13 +6,8 @@ For each item in the response, it displays title, abstract text, auther, and a c
 
 On each image there is a button on the bottom right corner, and on click of it corresponding image opens in a popup along with title and description. For multiple images there will be left and right navigation option.
 
-Page is served from a simple http server using node js (http-server)
-
-Steps:
-* npm install http-server -g
-* http-server
-
-Server location: http://127.0.0.1:8080/
+Page is served using a third party server at the below link :
+https://www.jasonbase.com/things/2MDJ/  
 
 ## Technical Description
 #### Libraries used: 
