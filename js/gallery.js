@@ -4,7 +4,7 @@ var Image = Backbone.Model.extend({});
  
 var Items = Backbone.Collection.extend({
     model: Item,
-    url: "https://www.jasonbase.com/things/2MDJ/  ",
+    url: "https://www.jasonbase.com/things/2MDJ/",
 	parse: function(response) {
 		return response.items;
 	}
