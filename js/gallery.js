@@ -4,7 +4,7 @@ var Image = Backbone.Model.extend({});
  
 var Items = Backbone.Collection.extend({
     model: Item,
-    url: "/response.json",
+    url: "https://www.jasonbase.com/things/2MDJ/  ",
 	parse: function(response) {
 		return response.items;
 	}
@@ -123,6 +123,9 @@ var ImagePopupView = Backbone.View.extend({
 			parent.imageSelectedEvent({index : this.model.get("index") + 1});
 		},
 		'click .popup_view': function() {
+			$('.popup_view').remove();
+		},
+		'click #close_popup_view': function() {
 			$('.popup_view').remove();
 		},
 	},
