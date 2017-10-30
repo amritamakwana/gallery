@@ -18,13 +18,14 @@
 		<script type="text/template" id="image_template">
 			<div class='gallery'>
 				<img src= <%= url %> class='image'>
-				<button type='button' class='button'></button>
+				<button type='button' class='button'>+</button>
 			</div>
 		</script>
 		
 		<script type="text/template" id="popup_image_template">
 			<div class='popup_view'> 
 				<h3 id='image_title'> <%= title %> </h3> 
+				<button type='button' id='close_popup_view'>x</button> 
 				<img src= <%= url %> class='popup_image'>
 				<button type='button' id='left_nav'> < </button> 
 				<p id='image_description'> <%= description %> </p> 
